@@ -1,0 +1,16 @@
+[package]
+name = "gen"
+version = "0.1.0"
+authors = ["Karthik D <krtdvn@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+actix-files = "0.5.0"
+pulldown-cmark = "0.8.0"
+serde = "1.0"
+serde_yaml = "0.8"
+handlebars = "3.5.4"
+walkdir = "2"
